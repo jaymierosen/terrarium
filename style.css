@@ -1,0 +1,22 @@
+body {
+	background: #333; 
+	font-size: 24px;
+	letter-spacing: 0.5px;
+	font-family: 'EB Garamond', serif;
+	line-height: 1.4;
+	padding: 10px;
+}
+main {
+	display: flex;
+	width: 920px; /* not responsive - just use exact pixel width */
+	margin: 0 auto; /* center it */
+}
+.plant-drawer {
+	width: 40%;
+	background: #DCEDC8; /* light green background */
+	margin-right: 10px;
+}
+.terrarium-container {
+	width: 60%;
+	background: #fff;
+}
